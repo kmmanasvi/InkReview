@@ -1,0 +1,27 @@
+/* BookList.css */
+.booklist-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.booklist-title {
+  font-size: 2rem;
+  color: #055484;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  border: 2px solid #055484;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.booklist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

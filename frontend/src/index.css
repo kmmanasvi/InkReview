@@ -1,0 +1,98 @@
+/* frontend/src/index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #055484;
+}
+
+a:hover {
+  color: #fd8407;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #055484;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #055484;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fd8407;
+}
+
+
+.book-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.8rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.book-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #055484;
+  margin: 0;
+}
+
+.book-card p {
+  font-size: 0.95rem;
+  color: #333333;
+  margin: 0.2rem 0 0.8rem;
+}
+
+.book-card a {
+  text-align: center;
+  padding: 0.6rem;
+  background-color: #055484;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.book-card a:hover {
+  background-color: #fd8407;
+}
